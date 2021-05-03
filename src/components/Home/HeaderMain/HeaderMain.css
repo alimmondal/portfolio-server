@@ -1,0 +1,10 @@
+
+.heroImg{
+    height: 300px;
+    border: 20px solid lightgray;
+    border-radius:200px;
+    
+}
+img:hover{
+    transform: translate(5px);
+}
