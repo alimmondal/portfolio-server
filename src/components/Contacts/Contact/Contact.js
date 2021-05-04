@@ -1,6 +1,7 @@
 import React from "react";
-import Footer from "../../Home/Footer/Footer";
-import Navbar from "../../Home/Home/Navbar/Navbar";
+import Footer from "../../Shared/Footer/Footer";
+import Navbar from "../../Shared/Navbar/Navbar";
+// import Navbar from "../../Home/Home/Navbar/Navbar";
 import ContactDetail from "../ContactDetail/ContactDetail";
 import ContactUs from "../ContactUs/ContactUs";
 
@@ -8,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar></Navbar>
-
+        
       <div className="container">
         <hr />
         <div className="py-5">

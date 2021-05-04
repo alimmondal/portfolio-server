@@ -3,9 +3,9 @@ import Hero from '../../../images/hero.png';
 import './HeaderMain.css'
 const HeaderMain = () => {
     return (
-        <main className="container">
-            <div style={{height:'600px', }}  className="row d-flex align-items-center pb-5">
-            <div style={{paddingLeft:'150px', }} className="col-md-6 ">
+        <div className="container">
+            <div style={{height:'600px', }}  className="row d-flex align-items-center">
+            <div style={{paddingLeft:'100px', }} className="col-md-6 ">
                 <img src={Hero} alt="" className="heroImg"/>
             </div>
             <div className="col-md-5">
@@ -16,7 +16,7 @@ const HeaderMain = () => {
                 <button className="btn-secondary px-3 py-2 rounded">Contact us</button>
             </div>
             </div>
-        </main>
+        </div>
     );
 };
 

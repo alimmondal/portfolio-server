@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../../Home/Footer/Footer";
-import Navbar from "../../Home/Home/Navbar/Navbar";
+import Footer from "../../Shared/Footer/Footer";
+import Navbar from "../../Shared/Navbar/Navbar";
 import Projects from "../Projects/Projects";
 
 const Project = () => {
@@ -11,6 +11,7 @@ const Project = () => {
         <Projects></Projects>
       </div>
       <Footer></Footer>
+      
     </div>
   );
 };

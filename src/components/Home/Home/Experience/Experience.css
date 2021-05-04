@@ -1,0 +1,64 @@
+
+.expHeader{
+    margin-left: 110px;
+}
+.name-highlight{
+    color: orange;
+}
+  
+.half-width{
+    width:540px;
+    height: 400px;
+    padding: 27px;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.half-width:hover{
+        transform: perspective(1000px) rotateX(90deg) rotateY(9deg) scale3d(1, 1, 1);
+}
+
+ .experience h2{
+    font-size: 40px;
+} 
+.experience p{
+    color: dimgray;
+    text-align: justify;
+} 
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    height: 80%;
+    
+}
+.single-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    height: 80%;
+    background-color: white;
+}
+
+.expResponsive{
+    display: flex;
+    max-width: 1200px;
+    margin:0 auto;
+}
+@media(max-width:760px){
+    .expResponsive{
+        display:flex;
+        flex-direction: column;
+    }
+    .half-width{
+        width: 360px;
+        margin-bottom: 50px;
+        
+    }
+
+}

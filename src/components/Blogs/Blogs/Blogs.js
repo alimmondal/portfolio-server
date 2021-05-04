@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "../../Home/Home/Navbar/Navbar";
+import Footer from "../../Shared/Footer/Footer";
+import Navbar from "../../Shared/Navbar/Navbar";
 import Blog from "../Blog/Blog";
 
 const Blogs = () => {
@@ -17,6 +18,7 @@ const Blogs = () => {
           <Blog></Blog>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

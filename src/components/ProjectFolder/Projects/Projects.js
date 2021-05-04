@@ -52,8 +52,10 @@ const Projects = () => {
     <div>
       <section className="container mt-5">
         <hr/>
-        <div className="py-5">
-          <h1>Portfolio <span style={{fontSize:'14px'}}>a proof of my programming skill</span> </h1>
+        <div className="py-5 text-center">
+          
+          <h1>Portfolio </h1>
+          <h5 className="text-primary">a proof of my programming skill</h5>
         </div>
         <hr/>
         <div className="d-grid gap-3 projectGrid mt-5 mb-5 ">

@@ -3,8 +3,7 @@
     transition: all 0.2s ease-in-out;
 }
 .services:hover{
-    /* border: 1px solid goldenrod; */
     transform:translateY(-5px);
-    box-shadow: 0 12px 17px rgba(0,0,0,.12);
+    box-shadow: 0 12px 17px rgba(241, 179, 7, 0.884);
     border-radius:10px;
 }
