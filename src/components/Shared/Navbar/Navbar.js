@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <section class="container" id="header">
+        <section class="container sticky" id="header">
             <nav class="navbar navbar-expand-lg navbar-light bg-aqua py-3">
                 <div class="container-fluid">
                         <Link class="logo navbar-brand" to='/'>
@@ -19,19 +19,19 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item active">
-                            <Link class="nav-link ms-5 " to="/">Home</Link>
+                            <Link class="nav-link ms-5 text-primary" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link ms-5 " to="/resume">Resume</Link>
+                            <Link class="nav-link ms-5 text-primary" to="/resume">Resume</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link ms-5 " to="/projects">Projects</Link>
+                            <Link class="nav-link ms-5 text-primary" to="/projects">Projects</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link ms-5 " to="blogs">Blogs</Link>
+                            <Link class="nav-link ms-5 text-primary" to="blogs">Blogs</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link ms-5 " to="/contact">Contact Us</Link>
+                            <Link class="nav-link ms-5 text-primary" to="/contact">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css'
+import './Footer.css';
+// import logo from '../../../images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <div className="footer-area py-5">
+        <div className="footer-area py-3">
             <div className="dGrid pb-3">
                 <div className="pb-3">
                     <Link className="logo" to='/'>
+                    {/* <img class="" src={logo} alt="" /> */}
                         Web Designer
                     </Link>
                 </div>
