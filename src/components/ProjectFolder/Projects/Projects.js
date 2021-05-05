@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
+import doctor from "../../../images/doctor's portal.png";
 import panda from "../../../images/panda.png";
+import iRepair from "../../../images/iRepair.png";
 import fashion from "../../../images/fashion.png";
 import itroom from "../../../images/itroom.png";
 import news from "../../../images/news.png";
@@ -9,14 +11,19 @@ import ProjectDetail from "../ProjectDetail/ProjectDetail";
 
 const projectData = [
   {
+    name: "doctor's Portal",
+    imageURL: doctor,
+    Link: "https://peaceful-austin-447329.netlify.app/",
+  },
+  {
     name: "Ecommerce website on Bootstrap",
     imageURL: panda,
     Link: "https://alimmondal.github.io/panda-commerce-bootstrap/",
   },
   {
     name: "Portfolio website on HTML & CSS",
-    imageURL: html,
-    Link: "https://alimmondal.github.io/web-portfolio/",
+    imageURL: iRepair,
+    Link: "https://gifted-stonebraker-03413b.netlify.app/",
   },
   {
     name: "Website on HTML, CSS & Bootstrap",
@@ -38,13 +45,7 @@ const projectData = [
     imageURL: html,
     Link: "https://alimmondal.github.io/web-portfolio/",
   },
-  {
-    name: "Portfolio website on HTML & CSS",
-    imageURL: html,
-    Link: "https://alimmondal.github.io/web-portfolio/",
-  },
-  
-  
+ 
 ];
 
 const Projects = () => {

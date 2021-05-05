@@ -4,6 +4,9 @@
     width: 260px;
     margin: 10px;
 }
+.funFact img{
+    height: 70px;
+}
 .fun h1{
     color: lightgray;
 }

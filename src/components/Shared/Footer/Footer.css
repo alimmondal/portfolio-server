@@ -1,4 +1,6 @@
-  
+ .footer-area{
+     /* background-color: lightgrey; */
+ } 
 .dGrid{
     display:flex;
     align-items: center;
@@ -9,10 +11,10 @@
     justify-content:space-evenly;
 }
 
-.footer-area{
-    background-image: url(../../../images/footer-bg.png);
+ .footer-area{
+    background-image: url(../../../images/contact.jpg);
     background-size: cover;
-}
+} 
 .footer-area .logo{
     font-size: 30px;
     font-weight: bold;

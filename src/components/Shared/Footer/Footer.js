@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="pb-3">
                     <Link className="logo" to='/'>
                     {/* <img class="" src={logo} alt="" /> */}
-                        Web Designer
+                        Web Designer | Web Developer
                     </Link>
                 </div>
         <nav className="navbar navbar-expand-lg navbar-light ">

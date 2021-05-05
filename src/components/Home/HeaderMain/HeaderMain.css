@@ -1,4 +1,9 @@
-
+/* body{
+    background-color: #F7F8F9;
+} */
+.headerColor{
+    background-color: #3FAE8E;
+}
 .heroImg{
     height: 300px;
     border: 20px solid lightgray;
