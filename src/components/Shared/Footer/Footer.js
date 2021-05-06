@@ -10,30 +10,30 @@ const Footer = () => {
         <div className="footer-area py-3">
             <div className="dGrid pb-3">
                 <div className="pb-3">
-                    <Link className="logo" to='/'>
+                    <Link className="logo " to='/'>
                     {/* <img class="" src={logo} alt="" /> */}
                         Web Designer | Web Developer
                     </Link>
                 </div>
         <nav className="navbar navbar-expand-lg navbar-light ">
-            <div className="container ms-5 ">
+            <div className="container ">
                 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav pb-3">
                     <li className="nav-item active">
-                        <Link className="nav-link ms-5 text-muted" to="/">Home</Link>
+                        <Link className="nav-link text-white" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link ms-5 text-muted" to="/resume">Resume</Link>
+                        <Link className="nav-link  text-white" to="/resume">Resume</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link ms-5 text-muted" to="/projects">Projects</Link>
+                        <Link className="nav-link text-white" to="/projects">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link ms-5 text-muted" to="/blog">Blogs</Link>
+                        <Link className="nav-link  text-white" to="/blog">Blogs</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link ms-5 text-muted" to="/contact">Contact Us</Link>
+                        <Link className="nav-link  text-white" to="/contact">Contact Us</Link>
                     </li>
                 </ul>
             </div>
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
 
             <div className="copyRight pb-3">
-                <p>Copyright {(new Date()).getFullYear()} All Rights Reserved by Md Alim</p>
+                <p className="text-white">Copyright {(new Date()).getFullYear()} All Rights Reserved by Md Alim</p>
             </div>
         </div>
             

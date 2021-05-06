@@ -12,11 +12,11 @@
     padding: 27px;
     margin: 0 auto;
     position: relative;
-    transition: all 3000ms ease-in-out;
+    transition: all 2000ms ease-in-out;
 }
 
 .half-width:hover{
-        transform: perspective(1000px) rotateX(90deg) rotateY(9deg) scale3d(1, 1, 1);
+    transform: perspective(1000px) rotateX(90deg) rotateY(9deg) scale3d(1, 1, 1);
 }
 
  .experience h2{

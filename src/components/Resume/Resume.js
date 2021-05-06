@@ -17,8 +17,13 @@ const Resume = () => {
           <p>8 years of experience</p>
         </div>
       </div>
+      <p className="text-center py-3">Click over the resume to download</p>
+
       <div className="">
-        <img src={Resumes} alt="" />
+        <a href="../../images/Resume.png" download="Resume">
+          <img src="../../images/Resume.png" alt=""/>
+        <img src={Resumes} alt="resume" />
+        </a>
       </div>
     </div>
   );

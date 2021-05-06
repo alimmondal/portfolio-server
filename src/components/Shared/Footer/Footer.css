@@ -1,6 +1,10 @@
  .footer-area{
-     /* background-color: lightgrey; */
+     background-color: #3FAE8E;
  } 
+
+ .footer-area ul li{
+     color: white;
+ }
 .dGrid{
     display:flex;
     align-items: center;
@@ -11,14 +15,22 @@
     justify-content:space-evenly;
 }
 
- .footer-area{
+ /* .footer-area{
     background-image: url(../../../images/contact.jpg);
     background-size: cover;
-} 
+}  */
 .footer-area .logo{
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
+    color: gold;
+    position: relative;
+    transition: all 0.25s ease-in;
+}
+
+.footer-area .logo:hover{
+    color: red;
+    font-size: 60px;
 }
 
 .footer-area li{
@@ -30,9 +42,9 @@
 .social-media .icon{
     height: 40px;
     width: 40px;
-    color: #1cc7c1;
+    color: white;
     border-radius: 50%;
-    border: 1px solid #6ACECE;
+    border: 2px solid white;
     padding: 10px;
 }
 .social-media .active-icon{
