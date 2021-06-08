@@ -7,9 +7,15 @@ import fashion from "../../../images/fashion.png";
 import itroom from "../../../images/itroom.png";
 import news from "../../../images/news.png";
 import html from "../../../images/html.png";
+import realstate from "../../../images/RealState.png";
 import ProjectDetail from "../ProjectDetail/ProjectDetail";
 
 const projectData = [
+  {
+    name: "Team Work",
+    imageURL: realstate,
+    Link: "https://sad-mestorf-9e19f8.netlify.app/",
+  },
   {
     name: "doctor's Portal",
     imageURL: doctor,

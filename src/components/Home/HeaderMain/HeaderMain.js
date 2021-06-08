@@ -10,7 +10,7 @@ const HeaderMain = () => {
           style={{ height: "600px" }}
           className="row d-flex align-items-center"
         >
-          <div style={{ paddingLeft: "100px" }} className="col-md-6 ">
+          <div style={{ }} className="col-md-6 ">
             <img src={Hero} alt="" className="heroImg" />
           </div>
           <div className="col-md-5">

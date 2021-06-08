@@ -1,6 +1,4 @@
 import React from "react";
-// import Navbar from "../Home/Home/Navbar/Navbar";
-// import Navbar from "../../Shared/Navbar/Navbar";
 import Resumes from "../../images/Resume.png";
 import Navbar from "../Shared/Navbar/Navbar";
 import "./Resume.css";

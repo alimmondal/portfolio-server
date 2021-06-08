@@ -8,7 +8,7 @@ import fun4 from "../../../images/fun4.png";
 const FunFacts = () => {
   return (
     <div className="container funFact my-5">
-      <h2>Fun Facts</h2>
+      <h2 className="text-center">Fun Facts</h2>
       <div className="row">
         <div className="funFlex">
           <div className="col-md-3 fun text-center">

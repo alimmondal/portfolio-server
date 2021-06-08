@@ -1,20 +1,18 @@
-/* body{
-    background-color: #F7F8F9;
-} */
+
 .headerColor{
     background-color: #3FAE8E;
 }
 .heroImg{
     height: 300px;
     border: 20px solid lightgray;
-    border-radius:200px;
+    border-radius:400px;
     position: relative;
     transition: all 0.2s ease-in-out;
 }
-img:hover{
-    /* transform: perspective(1000px) rotateX(90deg) rotateY(9deg) scale3d(1, 1, 1); */
+.heroImg:hover{
+    transform: perspective(1000px) rotateX(90deg) rotateY(9deg) scale3d(1, 1, 1); 
     transform:translate(30px);
     box-shadow: 0 12px 17px rgba(0,0,0,.12);
-    /* height: 500px;
-    border-radius:300px; */
+    height: 500px;
+    border-radius:300px; 
 }

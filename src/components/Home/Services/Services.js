@@ -26,9 +26,9 @@ const Services = () => {
   return (
     <div>
       <section className="container mt-5">
-        <div className="">
-          <h2 >What <span className="text-primary">I Do</span> </h2>
-          <hr style={{width:'50px',height:'3px', color: '#0B5ED7'  }}/> 
+        <div className="" >
+          <h2 className="text-center">What <span className="text-primary">I Do</span> </h2>
+          <hr style={{width:'80px', marginLeft:'490px', height: '2px', color:'blue'}}/>
         </div>
         <div className="d-flex justify-content-center mt-5 mb-5">
             <div className=" row">
